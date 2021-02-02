@@ -20,8 +20,15 @@ button {
   /* background: linear-gradient(0deg, rgba(215,215,4,1) 0%, rgba(254,253,3,1) 100%);*/
   border: none;
   font-size: 1.25rem;
-  background: #ffdb4d;
+  background: #ffd017;
   /* text-shadow: 0 .5px 1px hsla(0, 0%, 0%, 0.2); */
-  box-shadow: 0 1px 60px hsla(0, 0%, 0%, 0.16);
+  box-shadow: 0 1px 20px hsla(0, 0%, 0%, 0.05);
   outline: none !important;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  background: #ffdb4d;
+  box-shadow: 0 1px 60px hsla(0, 0%, 0%, 0.1);
 }
