@@ -26,9 +26,22 @@ button {
   outline: none !important;
   cursor: pointer;
   transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:hover {
   background: #ffdb4d;
   box-shadow: 0 1px 60px hsla(0, 0%, 0%, 0.1);
+}
+
+.icon {
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: .5rem;
+  position: relative;
+  top: -1px;
+  opacity: .8;
 }
